@@ -48,6 +48,14 @@ $CMP R-AX-QW
 D Axial resistor, 1/4 W
 $ENDCMP
 #
+$CMP R-KOASPEER-MOS-2W
+D Axial resistor, 2 W
+$ENDCMP
+#
+$CMP R-KOASPEER-MOS-3W
+D Axial resistor, 2 W
+$ENDCMP
+#
 $CMP RESPACK-4X0603-CONC
 D Resistor pack, 4x0603 (1206) concave
 $ENDCMP
@@ -58,6 +66,10 @@ $ENDCMP
 #
 $CMP THERM-0603
 D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP THERM-0805
+D Chip thermistor, EIA 0805, metric 2012
 $ENDCMP
 #
 $CMP THERM-1206

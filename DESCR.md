@@ -87,7 +87,7 @@ high RF comes out as a DC power level.
   - Only specify if notable (suggested cutoff: 6V * GBW)
   - Always specified in V/µs
 - iorange:
-  - RRI, RRO, RRIO if rail-to-rail (go by manufacturer's claims)
+  - RRI, RRO, RRI RRO if rail-to-rail (go by manufacturer's claims)
   - SSI, SSO, SSIO if single-supply
   - OverTopI if over-the-top
   - OpenCollO, OpenDrnO if open-collector/open-drain
@@ -140,6 +140,10 @@ high RF comes out as a DC power level.
 `LED color wavelength xV xA [footprint]`
 
 - pulse: 8/20µs peak pulse
+
+## Optocouplers
+
+`Optocoup NPN+base isoV fwdcurrentA vvvVceo [footprint]`
 
 ## Microcontrollers
 

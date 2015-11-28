@@ -9,23 +9,31 @@ D TVS 5V 1A <500fF [SOD-923]
 $ENDCMP
 #
 $CMP MBR0520
-D Diode, Schottky, 0.5A, 20V
+D Schottky 20V 500mA [SOD-123]
+$ENDCMP
+#
+$CMP MBR0530
+D Schottky 30V 500mA [SOD-123]
 $ENDCMP
 #
 $CMP MBR0540
-D Diode, Schottky, 0.5A, 40V
+D Schottky 40V 500mA [SOD-123]
 $ENDCMP
 #
 $CMP MBR1635G
-D Diode, Schottky, 16A, 35V
+D Schottky 35V 16A [TO-220-2]
 $ENDCMP
 #
 $CMP MBRS360
-D Diode, Schottky, 3A, 60V
+D Schottky 60V 3A [SMC]
 $ENDCMP
 #
 $CMP MBRS360B
-D Diode, Schottky, 3A, 60V
+D Schottky 60V 3A [SMB]
+$ENDCMP
+#
+$CMP MJD31C
+D NPN 100V 3A 1.5W [TO-252]
 $ENDCMP
 #
 #End Doc Library
